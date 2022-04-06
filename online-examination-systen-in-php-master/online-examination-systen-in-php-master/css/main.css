@@ -1,0 +1,163 @@
+body
+{
+/*below strip color*/
+overflow-x:hidden;
+width:100%;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+background:#F3D0BA;
+min-height:550px;
+background-attachment:fixed;
+}
+.bg
+{
+min-height:540px;
+}
+.bg1
+{
+background:url(../image/bg.jpg);
+min-height:535px;
+}
+
+@font-face {
+   font-family: 'typo';
+    src: url('../fonts/typo.ttf');
+	}
+
+@font-face {
+   font-family: 'gothic';
+    src: url('../fonts/gothics.ttf');
+	}
+
+.panel{
+/*box border COLOR*/
+border-color:#202020;
+margin:40px;
+padding:20px;
+font: 15px "Century Gothic", "Times New Roman", sans-serif;
+}
+
+.title
+{
+font-family:'typo';
+}
+
+.header
+{
+/*BEHIND test skills TOP*/
+background:#353535;
+height:70px;
+}
+.logo
+{
+/*test SKILLS COLOR*/
+font-family:'typo';
+text-decoration: underline;
+font-size:40px;
+width:90px;
+color:#202020;
+background:white;
+margin:15px;
+padding:10px;
+border-radius: 13px;
+width:100px;
+}
+
+.title1{
+font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2{
+font-family: 'Ubuntu', sans-serif;
+font-size:20px;
+}
+
+
+.sub1
+{
+/*LOGIN COLOR*/
+width:90px;
+color:#202020;
+background:white;
+font-size:15px;
+height:35px;
+margin:20px;
+padding:10px;
+width:100px;
+}
+
+
+.sub
+{
+/*SIGNUP IN FORM*/
+width:100%;
+background-color:#bd1632;
+font-size:20px;
+padding:2px;
+margin-top:15px;
+margin-right:20px;
+}
+.sub:hover
+{
+color:#202020;
+}
+
+.footer
+{
+font-size:15px;
+text-align:center;
+border-top:1px solid;
+border-color:#323232;
+background-color:#202020;
+}
+.footer a
+{
+margin:25px;
+color:white;
+text-decoration:none;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+
+}
+.footer a:hover
+{
+/*START EXAM*/
+text-decoration:none;
+color:#9acd32;
+border-top:2px solid;
+border-color:green;
+
+}
+
+.box
+{
+padding:9px;
+}
+hr{
+color:#000000;
+}
+.top
+{
+margin-top:20px;
+}
+.log1
+{
+font: 15px 'Ubuntu', sans-serif;
+color:white;
+margin-left:10px;
+}
+
+.log
+{
+margin:10px;
+margin-right:60px;
+margin-left:5px;
+color:white;
+text-decoration:none;
+font-size:20px;
+font-size:15px;
+}
+.log:hover
+{
+color:#9acd32;
+border-top:2px solid;
+border-color:white;
+text-decoration:none;
+}
